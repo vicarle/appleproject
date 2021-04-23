@@ -1,0 +1,177 @@
+
+.header{
+	height:100vh;
+	background-image: url("https://ipt-miit.ru/wp-content/uploads/2019/12/14794f886e735e8d9902fafe352e0454.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.navbar{ 
+	padding-top: 60px;
+	background-color: none;
+	font-size:25px;
+}
+.nav-link , .navbar-brand{ color: black; font-size: 30px;  cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+.navbar-toggler{  background:#fff !important;}
+.nav-link:hover{
+	background-color:#9AA3BB;
+	border-radius: 14px;
+	color:black;
+
+}
+.content1{
+	margin: auto;
+	padding: 2em;
+	margin-top: 15vh;
+}
+.content1 h2{
+	text-align: center;
+	color: black ;
+	width: 70%;
+	margin:auto;
+}
+.content1 p{
+	justify-content: space-between; 
+	margin-top:30px;
+	color:black;
+	font-size: 30px;
+	line-height: 1.5;
+}
+.name{
+	justify-content: center;
+}
+.name h2 {
+}
+.content1 button{
+	margin-top: 14px;
+	border:1px  solid black;
+	background:#BBB6F9;
+	color:white;
+}
+.grey{
+	background-color: #9AA3BB;
+}
+.container-fluid{
+	padding: 60px 0;
+}
+.content2 h3{
+	margin: auto;
+	margin-bottom: 60px;
+	text-align: center;
+	width: 80%;
+}
+.card{
+	margin: 0 25px 0 -10px;	
+}
+.content2 .card-title{
+	margin: 20px auto;
+}
+.col-lg-4{
+	padding: 0;!important
+}
+.card-footer{
+	border: none;
+	background-color:#BBB6F9; 
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+.card-footer:hover{
+	background-color:#BBB6F9; 
+	text-decoration: none;
+	color: white;
+}
+
+.main3{
+	height:80vh;
+	background-image: url("https://www.apple.com/ac/ac-video-posterframe/4.0/images/ac_video_poster_960x540_2x.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.main3 .btn{
+	margin-top: 4vh;
+	padding: 10px 30px;
+	color: white;
+	background-color:BBB6F9;
+	font-size: 20px;
+border-radius: 14px;
+	color:black;
+}
+.main3 .btn:hover{
+	background-color: #9AA3BB;
+}
+.main3 h3{
+	margin: auto;
+	margin-top:10vh;
+	width: 60%;
+	text-align: center;
+	color: black;
+}
+.content3{
+	margin-top: 4vh;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+.mt-8{
+	margin-top: 18vh;
+	margin-bottom: 10vh
+
+}
+.main3 .card{
+	margin:0 0 30px 0;
+	background-color:#EFEFEF;
+}
+.main-title{
+	font-size: 90px;
+	color:  #9AA3BB;
+}
+.yellow {
+	color:white;
+	background-color:#9AA3BB;
+}
+.yellow h3{
+	padding: 10px;
+	margin:0 auto;
+}
+@media (max-width: 991.98px){
+	.card{
+		margin: 20px auto;
+	}
+	.header{
+	height:130vh;
+	}
+	.main3{
+	height:100vh;
+	}
+}
+.content4 .card{
+	border:none;
+	background-color: white;
+}
+.content4 .card-body, .card{
+	padding:0;
+}
+.content4 .btn{
+	width: 50%;
+}
+.city{
+	color:white;
+	height:calc(20vh+60px);
+	background-image: url("http://desktopsolution.org/wp-content/uploads/2015/11/Apple-logo-1320x623.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.city .btn{
+	padding: 10px 70px;
+}
+a{
+	color:black;
+}
+a:hover{
+	text-decoration: none;
+	color:#9AA3BB;
+}
